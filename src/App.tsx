@@ -10,7 +10,7 @@ function App() {
       <h1 className="text-4xl text-center font-bold  text-sky-700 mt-6">
         Песни от Учителя
       </h1>
-      <h1 className="text-lg italic text-center text-sky-700 mt-6">
+      <h1 className="text-lg p-3 italic text-center text-sky-700 mt-6">
         Четвърто преработено и допълнено издание
       </h1>
       <h1 className="text-lg text-center font-semibold text-sky-700 mt-6">
