@@ -1,4 +1,4 @@
-import samplePDF from "./assets/danov-songbook-2024.pdf";
+import samplePDF from "./assets/ПесниотУчителя2024.pdf";
 import "./App.css";
 
 function App() {
@@ -24,6 +24,9 @@ function App() {
             width="100%"
             height="100%"
           />
+        </div>
+        <div className="mt-10">
+          <iframe src={samplePDF} />
         </div>
       </div>
       <div className="max-w-4xl mx-auto my-10 p-2">
