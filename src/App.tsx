@@ -27,11 +27,10 @@ function App() {
         </div>
       </div>
       <div className="max-w-4xl mx-auto my-10 p-2">
-        <p className="p-5 text-lg font-semibold text-center text-sky-700">
-          Станицата предлага дигитален достъп до сборника "Песни от Учителя"
-          като интерактивен пдф-документ. Той има следните възможностти:
+        <p className="text-2xl italic text-center text-sky-700">
+          интерактивен пдф-документ
         </p>
-        <ul className="pl-5 pr-5 list-disc">
+        <ul className="mt-3 pl-5 pr-5 list-disc">
           <li className="mt-1 ml-10 text-lg font-semibold text-sky-700">
             Азбучно съдържание за мобилни устройства с навигация към всяка песен
           </li>
