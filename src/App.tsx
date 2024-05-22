@@ -27,7 +27,7 @@ function App() {
         </div>
       </div>
       <div className="max-w-4xl mx-auto my-10 p-2">
-        <p className="text-2xl italic text-center text-sky-700">
+        <p className="text-2xl text-center text-sky-700">
           Интерактивният пдф-документ предлага:
         </p>
         <ul className="mt-3 pl-5 pr-5 list-disc">
