@@ -25,9 +25,6 @@ function App() {
             height="100%"
           />
         </div>
-        <div className="mt-10">
-          <iframe src={samplePDF} />
-        </div>
       </div>
       <div className="max-w-4xl mx-auto my-10 p-2">
         <p className="text-2xl text-center text-sky-700">
