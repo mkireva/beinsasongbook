@@ -11,7 +11,7 @@ export default function Footer() {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
           <li>
-            <a href="https://www.kireva.de/" className="hover:underline text-xl font-semibold">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.kireva.de/" className="hover:underline text-xl font-semibold">
               Контакт
             </a>
           </li>
