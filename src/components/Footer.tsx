@@ -5,7 +5,7 @@ export default function Footer() {
         <span className=" text-white sm:text-center text-xl font-semibold">
           
           <a href="https://www.kireva.de/" className="hover:underline gap-4 text-xl font-semibold mr-2 ">
-          © 2024
+          2024
           </a>
            Мария Кирева
         </span>
