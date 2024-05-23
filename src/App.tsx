@@ -47,7 +47,7 @@ function App() {
           </ul>
 
           <div className=" my-10 flex items-center justify-center">
-            <button className="bg-buttoncolor w-3/4 py-2 rounded-md items-center justify-center">
+            <button className="bg-buttoncolor w-3/4 py-2 rounded-md items-center justify-center shadow-xl">
               <a
                 href={songbook}
                 download="Песни от Учителя 2024"
