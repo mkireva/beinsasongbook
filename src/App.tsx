@@ -1,6 +1,7 @@
 import songbook from "./assets/ПесниотУчителя2024.pdf";
 import image from "./assets/cover.jpeg";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
