@@ -13,10 +13,10 @@ function App() {
         Песни от Учителя
       </h1>
       {/* <h1 className="text-xl p-3 text-center text-sky-700 mt-3">
-      Издадени от <br/>
+        Издадени от <br />
         <span className="space-x-2">
           <span> Петър Ганев</span>
-          <span className="font-bold">·</span>
+          <span className="font-bold text-2xl">·</span>
           <span> Мария Кирева</span>
         </span>
       </h1> */}
