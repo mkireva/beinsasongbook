@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full bg-buttoncolor">
+    <footer className="w-full bg-sky-800">
       <div className="w-full p-10 mx-auto max-w-screen-xl md:flex md:items-center md:justify-between sm:flex sm:items-center sm:justify-between">
         <span className=" text-white text-xl font-semibold">
           <a
