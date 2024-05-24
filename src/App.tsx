@@ -13,7 +13,12 @@ function App() {
         Песни от Учителя
       </h1>
       {/* <h1 className="text-xl p-3 text-center text-sky-700 mt-3">
-        Издадени от Петър Ганев, Мария Кирева
+      Издадени от <br/>
+        <span className="space-x-2">
+          <span> Петър Ганев</span>
+          <span className="font-bold">·</span>
+          <span> Мария Кирева</span>
+        </span>
       </h1> */}
       <h1 className="text-xl p-3 italic text-center text-sky-700 mt-3">
         Четвърто преработено и допълнено издание
@@ -27,8 +32,8 @@ function App() {
         </div>
         <div className=" my-4 max-w-4xl mx-auto p-2">
           <p className=" ml-10 text-2xl text-start font-semibold  text-sky-700">
-            Изданието съдържа вокални и инструментални композиции от <br/> Учителя
-            Петър Дънов <br/> и негови ученици.
+            Изданието съдържа вокални и инструментални композиции от <br />{" "}
+            Учителя Петър Дънов <br /> и негови ученици.
           </p>
           <p className=" mt-10 ml-10 text-2xl text-start font-semibold text-sky-700">
             Интерактивният пдф-документ предлага:

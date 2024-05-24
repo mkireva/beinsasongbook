@@ -6,6 +6,7 @@ export default {
     extend: {
       colors: {
         buttoncolor: "#e9bc69",
+        footercolor: '#bd7e48'
       },
       fontFamily: {
         body: [ "EB Garamond", "serif" ]
