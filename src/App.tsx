@@ -12,10 +12,13 @@ function App() {
       <h1 className="text-6xl text-center font-bold  text-sky-700 mt-6">
         Песни от Учителя
       </h1>
-      <h1 className="text-xl p-3 italic text-center text-sky-700 mt-6">
+      {/* <h1 className="text-2xl p-3 text-center text-sky-700 mt-3">
+        Издадени от Петър Ганев, Мария Кирева
+      </h1> */}
+      <h1 className="text-xl p-3 italic text-center text-sky-700 mt-3">
         Четвърто преработено и допълнено издание
       </h1>
-      <h1 className="text-xl text-center font-semibold text-sky-700 mt-6">
+      <h1 className="text-xl text-center font-semibold text-sky-700 mt-3">
         2024
       </h1>
       <div className="max-w-5xl grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto my-10 pl-9 pr-9 pt-7 pb-8 bg-amber-100 rounded-lg shadow-md">
@@ -23,7 +26,11 @@ function App() {
           <img src={image} alt="" className="w-auto shadow-xl rounded-xl" />
         </div>
         <div className=" my-4 max-w-4xl mx-auto p-2">
-          <p className="text-3xl text-center text-sky-700">
+          <p className=" ml-10 text-2xl text-start font-semibold  text-sky-700">
+            Изданието съдържа вокални и инструментални композиции от <br/> Учителя
+            Петър Дънов <br/> и негови ученици.
+          </p>
+          <p className=" mt-10 ml-10 text-2xl text-start font-semibold text-sky-700">
             Интерактивният пдф-документ предлага:
           </p>
           <ul className="mt-3 pl-5 pr-5 list-disc">
@@ -60,7 +67,7 @@ function App() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
