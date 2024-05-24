@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="w-full  bg-gray-400">
-      <div className="w-full p-10 mx-auto max-w-screen-xl md:flex md:items-center md:justify-between">
+    <footer className="w-full bg-gray-400">
+      <div className="w-full p-10 mx-auto max-w-screen-xl md:flex md:items-center md:justify-between sm:flex sm:items-center sm:justify-between">
         <span className=" text-white sm:text-center text-xl font-semibold">
           
           <a href="https://www.kireva.de/" className="hover:underline gap-4 text-xl font-semibold mr-2 ">
