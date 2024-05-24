@@ -12,7 +12,7 @@ function App() {
       <h1 className="text-6xl text-center font-bold  text-sky-700 mt-6">
         Песни от Учителя
       </h1>
-      {/* <h1 className="text-2xl p-3 text-center text-sky-700 mt-3">
+      {/* <h1 className="text-xl p-3 text-center text-sky-700 mt-3">
         Издадени от Петър Ганев, Мария Кирева
       </h1> */}
       <h1 className="text-xl p-3 italic text-center text-sky-700 mt-3">
