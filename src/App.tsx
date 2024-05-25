@@ -1,4 +1,4 @@
-import songbook from "./assets/ПесниотУчителя2024.pdf";
+import songbook from "./assets/songbook.pdf";
 import image from "./assets/cover.jpeg";
 import "./App.css";
 import Footer from "./components/Footer";
@@ -58,7 +58,6 @@ function App() {
               Азбучен показател с навигация към съответната песен
             </li>
           </ul>
-
           <div className=" my-10 flex items-center justify-center">
             <button className="bg-buttoncolor w-3/4 py-2 rounded-md items-center justify-center shadow-xl">
               <a
