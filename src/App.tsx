@@ -62,7 +62,7 @@ function App() {
             <button className="bg-buttoncolor w-3/4 py-2 rounded-md items-center justify-center shadow-xl">
               <a
                 href={songbook}
-                download="Песни от Учителя 2024"
+                download="Песни от Учителя-2024"
                 className="text-white text-2xl font-semibold"
               >
                 Download
