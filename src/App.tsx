@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <h2 className="text-3xl text-center font-semibold  text-sky-700 mt-20">
         Петър Дънов
       </h2>
@@ -26,7 +26,7 @@ function App() {
       <h1 className="text-xl text-center font-semibold text-sky-700 mt-3">
         2024
       </h1>
-      <div className="max-w-5xl grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto my-10 pl-9 pr-9 pt-7 pb-8 bg-sky-100 rounded-lg shadow-md mb-20">
+      <div className="max-w-5xl grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto my-10 pl-9 pr-9 pt-7 pb-8 bg-sky-100 rounded-lg mb-20">
         <div className="my-6">
           <img src={image} alt="" className="w-auto shadow-xl rounded-xl" />
         </div>
@@ -72,7 +72,7 @@ function App() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
