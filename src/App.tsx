@@ -26,16 +26,16 @@ function App() {
       <h1 className="text-xl text-center font-semibold text-sky-700 mt-3">
         2024
       </h1>
-      <div className="max-w-5xl grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto my-10 pl-9 pr-9 pt-7 pb-8 bg-amber-100 rounded-lg shadow-md mb-20">
+      <div className="max-w-5xl grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto my-10 pl-9 pr-9 pt-7 pb-8 bg-sky-100 rounded-lg shadow-md mb-20">
         <div className="my-6">
           <img src={image} alt="" className="w-auto shadow-xl rounded-xl" />
         </div>
         <div className=" my-4 max-w-4xl mx-auto p-2">
           <p className=" ml-10 text-2xl text-start font-semibold  text-sky-700">
-            Изданието съдържа вокални и инструментални композиции от <br />{" "}
+            Изданието съдържа вокални и инструментални композиции от <br />
             Учителя Петър Дънов <br /> и негови ученици.
           </p>
-          <p className=" mt-10 ml-10 text-2xl text-start font-semibold text-sky-700">
+          <p className=" mt-5 ml-10 text-2xl text-start font-semibold text-sky-700">
             Интерактивният пдф-документ предлага:
           </p>
           <ul className="mt-3 pl-5 pr-5 list-disc">
@@ -59,7 +59,7 @@ function App() {
             </li>
           </ul>
           <div className=" my-10 flex items-center justify-center">
-            <button className="bg-buttoncolor w-3/4 py-2 rounded-md items-center justify-center shadow-xl">
+            <button className="bg-sky-600 w-3/4 py-2 rounded-md items-center justify-center shadow-2xl">
               <a
                 href={songbook}
                 download="Песни от Учителя 2024"
