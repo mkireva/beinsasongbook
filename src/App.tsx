@@ -5,11 +5,12 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <h2 className="text-3xl text-center font-semibold  text-sky-700 mt-20">
+    <div className="flex flex-col min-h-screen items-center justify-center">
+      <div className="container">
+      <h2 className="text-2xl text-center font-semibold  text-sky-700 mt-20">
         Петър Дънов
       </h2>
-      <h1 className="text-6xl text-center font-bold  text-sky-700 mt-6">
+      <h1 className="text-5xl text-center font-bold  text-sky-700 mt-6">
         Песни от Учителя
       </h1>
       {/* <h1 className="text-xl p-3 text-center text-sky-700 mt-3">
@@ -31,11 +32,11 @@ function App() {
           <img src={image} alt="" className="w-auto shadow-xl rounded-xl" />
         </div>
         <div className=" my-4 max-w-4xl mx-auto p-2">
-          <p className=" ml-10 text-2xl text-start font-semibold  text-sky-700">
-            Изданието съдържа вокални и инструментални композиции от <br />
-            Учителя Петър Дънов <br /> и негови ученици.
+          <p className=" ml-10 text-xl text-start font-semibold  text-sky-700">
+            Изданието съдържа вокални и инструментални композиции от
+            Учителя Петър Дънов и негови ученици.
           </p>
-          <p className=" mt-5 ml-10 text-2xl text-start font-semibold text-sky-700">
+          <p className=" mt-5 ml-10 text-xl text-start font-semibold text-sky-700">
             Интерактивният пдф-документ предлага:
           </p>
           <ul className="mt-3 pl-5 pr-5 list-disc">
@@ -70,6 +71,7 @@ function App() {
             </button>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </div>
