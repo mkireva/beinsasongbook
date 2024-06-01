@@ -7,7 +7,7 @@ export default function Footer() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.kireva.de/"
+              href="https://www.kireva.de"
               className="hover:underline text-xl font-semibold"
             >
               Контакт
